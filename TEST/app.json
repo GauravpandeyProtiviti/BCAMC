@@ -14,12 +14,7 @@
     "applyToDevExtension": false
   },
   "dependencies": [
-    {
-      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
-      "name": "India GST",
-      "version": "23.5.16502.17769",
-      "publisher": "Microsoft"
-    },
+    
     {
       "id": "eddcf82e-482c-49d1-836b-ad0284f2c5b0",
       "name": "India TCS",
