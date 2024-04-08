@@ -9,7 +9,7 @@
   "platform": "22.0.58560.0",
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": true,
+    "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false,
     "applyToDevExtension": false
   },
