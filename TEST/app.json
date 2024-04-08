@@ -1,31 +1,78 @@
 {
-  "id": "82b9310b-5d7b-43bd-87ee-e45ab4c6bfdf",
-  "name": "TEST",
-  "publisher": "Protiviti",
+  "id": "80c844ba-53fa-4be6-9cdf-85d578d16378",
+  "name": "ProtivitiAMCQCI",
+  "publisher": "Protivitiglobal",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
-  "idRanges": [
-    {
-      "from": 50100,
-      "to": 50300
-    }
-  ],
-  "features": [
-    "NoImplicitWith"
-  ],
+  "runtime": "10.0",
+  "target": "Cloud",
+  "application": "19.0.0.0",
+  "platform": "22.0.58560.0",
   "resourceExposurePolicy": {
     "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": false,
+    "applyToDevExtension": false
+  },
+  "dependencies": [
+    {
+      "id": "db643212-b7fb-4dd4-b5a8-cb44ac714461",
+      "name": "India GST",
+      "version": "20.2.41144.42622",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "eddcf82e-482c-49d1-836b-ad0284f2c5b0",
+      "name": "India TCS",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "eae5779e-7797-4c4c-977e-7516652b7a65",
+      "name": "India TDS",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "f1d9b696-156b-4251-b542-34e549fa80e9",
+      "name": "India Voucher Interface",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "d3c551dd-5903-4194-b153-04ced9d29a2c",
+      "name": "India Tax Base",
+      "version": "23.5.16502.16887",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "c1eafb3f-e397-468e-bdb4-ecc5c317ca00",
+      "name": "Tax Engine",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "2dc39818-e0f0-42b6-99eb-ba29dc5f4102",
+      "name": "India Gate Entry",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "050f6146-bffd-40de-942c-d0dd510ec20f",
+      "name": "India Reports",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    },
+    {
+      "id": "7106d701-c601-4a5f-97c2-b8b323ae2c18",
+      "name": "QR Generator",
+      "version": "20.2.41144.41959",
+      "publisher": "Microsoft"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ]
 }
